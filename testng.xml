@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test1">
+    <classes>
+     <class name="Testcases.TC1giftcard"/>
+     
+    </classes>
+  </test>
+     <test thread-count="5" name="Test2">
+    <classes>
+    <class name="Testcases.TC2gostore"/>
+    
+    </classes>
+  </test>
+     <test thread-count="5" name="Test3">
+    <classes>
+     <class name="Testcases.TC3loginpage"/>
+     
+    </classes>
+  </test>
+  <test thread-count="5" name="Test4">
+    <classes>
+     <class name="Testcases.TC4mattresses"/>
+     
+    </classes>
+  </test>
+     <test thread-count="5" name="Test5">
+    <classes>
+        <class name="Testcases.TC5trackorder"/>
+        
+    </classes>
+  </test>
+     <test thread-count="5" name="Test6">
+    <classes>
+        <class name="Testcases.TC6search"/>
+        
+    </classes>
+  </test>
+     <test thread-count="5" name="Test7">
+    <classes>
+     <class name="Testcases.TC7help"/>
+     
+    </classes>
+  </test>
+     <test thread-count="5" name="Test8">
+    <classes>
+     <class name="Testcases.TC8cutomerStory"/>
+     
+    </classes>
+  </test>
+     
+     <test thread-count="5" name="Test9">
+    <classes>
+     <class name="Testcases.TC9address"/>
+     
+    </classes>
+  </test>
+      <test thread-count="5" name="Test10">
+    <classes>
+      <class name="Testcases.TC10Aboutus"/>
+  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
